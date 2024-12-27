@@ -126,8 +126,8 @@ public class JsonReceive {
                 }
             }
             System.out.println("set genre and constant successfully");
-
-            int i = 0;
+            System.out.println("count="+count);
+//            int i = 0;
 //            for (ScoreOpCalced soc : scoreList){
 //                if(Objects.equals(soc.getTitle(), "まっすぐ→→→ストリーム!")){
 //                    System.out.println(soc);
@@ -135,7 +135,7 @@ public class JsonReceive {
 //                }
 //                i++;
 //            }
-                     System.out.println("count="+count);
+
 
 //            int count2 = 0;
 //            int cons = 131;
