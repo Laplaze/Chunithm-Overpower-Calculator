@@ -74,7 +74,10 @@ public class JsonReceive {
                 );
                 scoreList.add(scoreOpCalced);
             }
+            scoreList.removeIf(x -> x.getTitle().equals("まっすぐ→→→ストリーム!"));
             System.out.println("construct ScoreList successfully");
+
+
             int count = 0;
             for(ScoreOpCalced soc : scoreList){
                 count++;
@@ -123,16 +126,16 @@ public class JsonReceive {
                 }
             }
             System.out.println("set genre and constant successfully");
-            {
-                int i = 0;
-                for (ScoreOpCalced soc : scoreList){
-                    if(Objects.equals(soc.getTitle(), "まっすぐ→→→ストリーム!")){
-                        scoreList.remove(i);
-                    }
-                    i++;
-                }
-            }
-            System.out.println("count="+count);
+
+            int i = 0;
+//            for (ScoreOpCalced soc : scoreList){
+//                if(Objects.equals(soc.getTitle(), "まっすぐ→→→ストリーム!")){
+//                    System.out.println(soc);
+//                    //scoreList.remove(i);
+//                }
+//                i++;
+//            }
+                     System.out.println("count="+count);
 
 //            int count2 = 0;
 //            int cons = 131;
