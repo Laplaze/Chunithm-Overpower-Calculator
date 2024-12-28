@@ -1,3 +1,5 @@
+package entity;
+
 public class ScoreOpCalced {
 
     private Integer id;
@@ -10,7 +12,7 @@ public class ScoreOpCalced {
 
     @Override
     public String toString() {
-        return "ScoreOpCalced{" +
+        return "entity.ScoreOpCalced{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", highscore=" + highscore +

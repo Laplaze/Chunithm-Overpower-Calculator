@@ -1,3 +1,5 @@
+package entity;
+
 public class MusicData {
     private Integer musicID;
     private String title;
@@ -19,7 +21,7 @@ public class MusicData {
 
     @Override
     public String toString() {
-        return "MusicData{" +
+        return "entity.MusicData{" +
                 "musicID=" + musicID +
                 ", title='" + title + '\'' +
                 ", artist='" + artist + '\'' +
@@ -97,7 +99,7 @@ class Charts {
 
     @Override
     public String toString() {
-        return "Charts{" +
+        return "entity.Charts{" +
                 "basic=" + basic +
                 ", advanced=" + advanced +
                 ", expert=" + expert +
@@ -181,7 +183,7 @@ class Normal {
 
     @Override
     public String toString() {
-        return "Normal{" +
+        return "entity.Normal{" +
                 "enabled=" + enabled +
                 ", constant=" + constant +
                 ", level='" + level + '\'' +
@@ -251,7 +253,7 @@ class WEchart {
 
     @Override
     public String toString() {
-        return "WEchart{" +
+        return "entity.WEchart{" +
                 "enabled=" + enabled +
                 ", constant=" + constant +
                 ", level='" + level + '\'' +
@@ -337,7 +339,7 @@ class ObjectCount {
 
     @Override
     public String toString() {
-        return "ObjectCount{" +
+        return "entity.ObjectCount{" +
                 "tap=" + tap +
                 ", hold=" + hold +
                 ", slide=" + slide +

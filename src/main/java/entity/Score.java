@@ -1,3 +1,5 @@
+package entity;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -18,7 +20,7 @@ public class Score {
 
     @Override
     public String toString() {
-        return "Score{" +
+        return "entity.Score{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", level_index=" + level_index +

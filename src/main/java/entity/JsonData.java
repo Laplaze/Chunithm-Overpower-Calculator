@@ -1,3 +1,5 @@
+package entity;
+
 import org.json.JSONArray;
 
 import java.io.FileReader;
