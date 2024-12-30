@@ -9,7 +9,7 @@ public class ScoreOpCalced {
     private Integer level_index;
     private String genre;
     private Double constant = 0.0;
-    private Integer overpower_100;
+    private Integer overpower_200;
 
     @Override
     public String toString() {
@@ -21,7 +21,7 @@ public class ScoreOpCalced {
                 ", level_index=" + level_index +
                 ", genre='" + genre + '\'' +
                 ", constant=" + constant +
-                ", overpower_100=" + overpower_100 +
+                ", overpower_200=" + overpower_200 +
                 '}';
     }
 
@@ -33,12 +33,12 @@ public class ScoreOpCalced {
         this.level_index = level_index;
     }
 
-    public Integer getOverpower_100() {
-        return overpower_100;
+    public Integer getOverpower_200() {
+        return overpower_200;
     }
 
-    public void setOverpower_100(Integer overpower_100) {
-        this.overpower_100 = overpower_100;
+    public void setOverpower_200(Integer overpower_200) {
+        this.overpower_200 = overpower_200;
     }
 
     public String getGenre() {
