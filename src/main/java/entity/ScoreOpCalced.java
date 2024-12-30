@@ -9,10 +9,11 @@ public class ScoreOpCalced {
     private Integer level_index;
     private String genre;
     private Double constant = 0.0;
+    private Integer overpower_100;
 
     @Override
     public String toString() {
-        return "entity.ScoreOpCalced{" +
+        return "ScoreOpCalced{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", highscore=" + highscore +
@@ -20,6 +21,7 @@ public class ScoreOpCalced {
                 ", level_index=" + level_index +
                 ", genre='" + genre + '\'' +
                 ", constant=" + constant +
+                ", overpower_100=" + overpower_100 +
                 '}';
     }
 
@@ -29,6 +31,14 @@ public class ScoreOpCalced {
         this.highscore = highscore;
         this.full_combo = full_combo;
         this.level_index = level_index;
+    }
+
+    public Integer getOverpower_100() {
+        return overpower_100;
+    }
+
+    public void setOverpower_100(Integer overpower_100) {
+        this.overpower_100 = overpower_100;
     }
 
     public String getGenre() {
