@@ -11,6 +11,15 @@ public class ScoreOpCalced {
     private Double constant = 0.0;
     private Integer overpower_200;
 
+    public String showOp() {
+        return "ShowOp:" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", constant=" + constant +
+                ", overpower=" + (double)overpower_200/200
+                ;
+    }
+
     @Override
     public String toString() {
         return "ScoreOpCalced{" +

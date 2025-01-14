@@ -27,6 +27,9 @@ public class JsonReceive {
                     jsonObject.getString("full_combo"),
                     jsonObject.getInt("level_index")
             );
+            if(Objects.equals(scoreOpCalced.getTitle(), "Snow Colored entity.Score")){
+                scoreOpCalced.setTitle("Snow Colored Score");
+            }
             scoreList.add(scoreOpCalced);
         }
         scoreList.removeIf(x -> x.getTitle().equals("まっすぐ→→→ストリーム!"));

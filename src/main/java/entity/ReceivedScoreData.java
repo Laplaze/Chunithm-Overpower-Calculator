@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class ReceivedScoreData {
     public static JSONArray ScoreData;
     public ReceivedScoreData() {
-        try (FileReader reader1 = new FileReader("C:/Users/92075/IdeaProjects/opCalc/response.txt")) {
+        try (FileReader reader1 = new FileReader("C:\\Users\\92075\\IdeaProjects\\opCalc3\\response.txt")) {
             // Read the JSON file and convert it to a string
             int c1;
             StringBuilder sb1 = new StringBuilder();
